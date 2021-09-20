@@ -1,0 +1,36 @@
+.login-img {
+  content: url('../assets/icon.svg');
+  width: 100px;
+  height: 100px;
+}
+
+.login-container {
+  margin-top: 20vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #cecece;
+  border-radius: 25px;
+  width: 500px;
+  padding: 20px;
+}
+
+.login-label {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.login-textbox {
+  width: 300px;
+  height: 20px;
+  margin: 5px;
+  outline: none;
+  border: 1px solid #1e90ff;
+}
+
+.login-button {
+  margin-top: 10px;
+  @include action-button(200px);
+}
+

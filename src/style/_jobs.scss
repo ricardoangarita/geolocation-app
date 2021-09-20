@@ -1,0 +1,44 @@
+.job-container{
+    display: flex;
+    justify-content: center;
+}
+
+.jobs{
+    width: 20vw;
+    height: 85vh;
+    list-style: none;
+    background-color: #c3c3c3;
+    padding-left: 20px;
+    margin-top: 0;
+    padding-top: 5vh;
+    overflow-y: scroll;
+}
+
+.job-img{
+    width: 30px;
+    height: 30px;
+}
+
+.job-title{
+    padding-left: 15px;
+    font-size: 1.2rem;
+}
+
+.job-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.job-item-button{
+    display: flex;
+    justify-content: space-between
+}
+
+.go-button{
+    @include action-button(40px);
+    font-size: 11px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+

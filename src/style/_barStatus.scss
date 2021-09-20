@@ -1,0 +1,28 @@
+.bar-status{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    height: 5vw;
+    background-color: #dcdcdc;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    box-shadow:3px 3px 5px #1e90fe;
+}
+
+.button-location{
+    margin-left: 10px;
+    content: url('../assets/icon.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.logout-button{
+    @include action-button(100px)
+}
+
+.logged-user{
+    font-size: 1rem;
+    font-weight: bold;
+}

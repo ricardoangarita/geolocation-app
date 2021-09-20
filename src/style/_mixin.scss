@@ -1,0 +1,13 @@
+@mixin action-button($width) {
+  padding: 10px 5px;
+  width: $width;
+  background-color: #1e90ff;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #fff;
+  &:hover {
+    background-color: #87cefa;
+  }
+}
