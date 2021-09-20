@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/geolocation-app/static/css/main.ab432762.chunk.css",
-    "main.js": "/geolocation-app/static/js/main.fdf134cc.chunk.js",
-    "main.js.map": "/geolocation-app/static/js/main.fdf134cc.chunk.js.map",
+    "main.js": "/geolocation-app/static/js/main.e9768f0b.chunk.js",
+    "main.js.map": "/geolocation-app/static/js/main.e9768f0b.chunk.js.map",
     "runtime-main.js": "/geolocation-app/static/js/runtime-main.514920fd.js",
     "runtime-main.js.map": "/geolocation-app/static/js/runtime-main.514920fd.js.map",
     "static/css/2.cb432d8b.chunk.css": "/geolocation-app/static/css/2.cb432d8b.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.cb432d8b.chunk.css",
     "static/js/2.0301b6be.chunk.js",
     "static/css/main.ab432762.chunk.css",
-    "static/js/main.fdf134cc.chunk.js"
+    "static/js/main.e9768f0b.chunk.js"
   ]
 }
